@@ -23,7 +23,7 @@ const Nav = () => {
             <nav>
                 <ul className="flex-row">
                     <li className="nav-links">
-                        <a href="#about">
+                        <a data-testid="about" href="#about">
                             About Me
                         </a>
                     </li>
