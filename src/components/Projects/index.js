@@ -3,7 +3,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 import PhotoList from '../Photolist';
 
 
-function Projects({ currentCategory }) {
+function Projects({currentCategory}) {
     const { name, description } = currentCategory;
     
     return (
