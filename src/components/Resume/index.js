@@ -10,11 +10,13 @@ function Resume() {
   return (
       
     <div>
+      <a href={File} download>Click to Download Resume</a>
       <Document
         file={File}
       >
         <Page pageNumber={1} />
       </Document>
+      
     </div>
   );
 }
