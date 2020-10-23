@@ -1,15 +1,20 @@
 # Heather's React Portfolio
 
-##Description
+## Description
 My Portfolio made using React for employers to view.
 
-##Table of Contents
+## Table of Contents
 [Requirements]
 [Installation]
 [Usage]
+[Contributing]
+[Tests]
+[Questions]
+[Screenshots]
+[Gitub]
 
 
-##Requirements
+### Requirements
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
@@ -36,7 +41,7 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-###Installation
+### Installation
 Step 1: Install React using npm i create-react-app and corresponding dependencies.
 Step 2: Creating work-flow and file structure.
 Step 3: Creating the component files and corresponding code
@@ -44,26 +49,26 @@ Step 4: Linking the export and imports.
 Step 5: Testing and tweaking code. 
 Step 6: Deploy to Heroku.
 
-###Usage
+### Usage
 Visit the heroku app at (I dont have it deployed yet)
 
-###Contributing
+### Contributing
 Myself, my tutor and the TA's.
 
-###Tests
+### Tests
 Jest testing done in the beginning stages of development
 
-###Questions
+### Questions
 1. Where do I create my public page in the code with Navbar links?
 2. How do I set my 'About Me' section as the default?
 3. How will I link my Project's deployed and github sites?
 4. How will I set up my Contact form fields?
 5. How will I display my resume and make it available to download?
 
-###Screenshots
+### Screenshots
 
 (I dont know how to add screenshots saved on my computer. the Readme wont let me copy/paste the photos)
 
-GitHub
+### GitHub
 
 [Github Repo](https://github.com/heatherzen/react-portfolio)
