@@ -4,14 +4,14 @@
 My Portfolio made using React for employers to view.
 
 ## Table of Contents
-[Requirements]
-[Installation]
-[Usage]
-[Contributing]
-[Tests]
-[Questions]
-[Screenshots]
-[Gitub]
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Screenshots](#screenshots)
+* [Gitub](#github)
 
 
 ### Requirements
