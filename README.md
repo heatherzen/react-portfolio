@@ -67,8 +67,13 @@ Jest testing done in the beginning stages of development
 
 ### Screenshots
 
-(I dont know how to add screenshots saved on my computer. the Readme wont let me copy/paste the photos)
+![](src/assets/images/github/react-port-pic1)
+![](src/assets/images/github/react-port-pic2)
 
 ### GitHub
 
 [Github Repo](https://github.com/heatherzen/react-portfolio)
+
+### Deployed
+
+[Github Pages](http://heatherzen.github.io/react-portfolio)
