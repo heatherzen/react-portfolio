@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://heatherzen.github.io/react-portfolio",
+  "homepage": "https://heatherzen.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.14.0",
