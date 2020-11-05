@@ -67,8 +67,8 @@ Jest testing done in the beginning stages of development
 
 ### Screenshots
 
-![](./src/assets/images/github/react-port-pic1)
-![](./src/assets/images/github/react-port-pic2)
+![](./src/assets/images/github/react-port-pic1.png)
+![](./src/assets/images/github/react-port-pic2.png)
 
 ### GitHub
 
