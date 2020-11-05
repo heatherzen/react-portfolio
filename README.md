@@ -10,6 +10,7 @@ My Portfolio made using React for employers to view.
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Snippets](#snippets)
 * [Screenshots](#screenshots)
 * [Gitub](#github)
 
@@ -65,10 +66,16 @@ Jest testing done in the beginning stages of development
 4. How will I set up my Contact form fields?
 5. How will I display my resume and make it available to download?
 
+### Snippets
+
+![](./src/assets/images/github/react-port-pic3.png)
+![](./src/assets/images/github/react-port-pic4.png)
+
 ### Screenshots
 
 ![](./src/assets/images/github/react-port-pic1.png)
 ![](./src/assets/images/github/react-port-pic2.png)
+
 
 ### GitHub
 
