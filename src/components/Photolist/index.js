@@ -6,7 +6,7 @@ function PhotoList({ category }) {
   const [photos] = useState([
     {
       name: 'Git it Done',
-      category: 'projects',
+      category: 'portfolio',
       description: 'A git repo search engine',
       image: 'git-it-done',
       url: 'https://heatherzen.github.io/git-it-done/',
@@ -14,7 +14,7 @@ function PhotoList({ category }) {
     },
     {
       name: 'Rv Roadtrip',
-      category: 'projects',
+      category: 'portfolio',
       description: 'A website for RV camping grounds in national parks',
       image: 'rv-roadtrip',
       url: 'https://heatherzen.github.io/ZitasRv-Roadtrip/',
@@ -22,7 +22,7 @@ function PhotoList({ category }) {
     },
     {
       name: 'My Schtick Kick',
-      category: 'projects',
+      category: 'portfolio',
       description: 'A hobby social media site',
       image: 'my-schtick-kick',
       url: 'https://fathomless-waters-65385.herokuapp.com/',
@@ -30,7 +30,7 @@ function PhotoList({ category }) {
     },
     {
       name: 'My thoughts',
-      category: 'projects',
+      category: 'portfolio',
       description: 'a backend social media application',
       image: 'my-thoughts',
       url: 'https://github.com/heatherzen/my-thoughts',
@@ -38,7 +38,7 @@ function PhotoList({ category }) {
     },
     {
       name: 'Password Generator',
-      category: 'projects',
+      category: 'portfolio',
       description: 'a password generator',
       image: 'password-generator',
       url: 'https://heatherzen.github.io/heatherpwgen/',
@@ -46,7 +46,7 @@ function PhotoList({ category }) {
     },
     {
       name: 'Run Buddy',
-      category: 'projects',
+      category: 'portfolio',
       description: 'a fitness website',
       image: 'run-buddy',
       url: 'https://heatherzen.github.io/run-buddy/',

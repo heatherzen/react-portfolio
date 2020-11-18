@@ -7,10 +7,11 @@ const About = () => {
         <div className='container'>
             
             <section id='about' className='about'>
-                <h1 className='title' style={{ color: 'blueviolet' }}>Heather Graham</h1>
-                <img src={headShot} className='head-shot' style={{ width: '30%', height: '30%' }} alt='profile picture'/>
-                <img src={coverImage} className='cover-image' style={{  width: '100%', height: '100%' }} alt='coding imagery'/>
+                
                 <p className='about-para'>I am Heather Graham.  A new, up and coming developer with Full-Stack skills.  I aspire to get into the fields of App development for both IOS and Android.  In my spare time, I enjoy doing henna art and playing guitar.</p>
+                <img src={headShot} className='head-shot' style={{ width: '30%', height: '30%' }} alt='profile picture'/>
+                {/* <img src={coverImage} className='cover-image' style={{  width: '100%', height: '100%' }} alt='coding imagery'/> */}
+                
             </section>
             
             

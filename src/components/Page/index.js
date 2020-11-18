@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../About';
-import Projects from '../Projects';
+import Portfolio from '../Portfolio';
 import ContactForm from '../Contact';
 import capitalizeFirstLetter from '../../utils/helpers';
 import Content from '../Content';
@@ -11,8 +11,8 @@ function Page({ currentCategory }) {
         switch (currentCategory.name) {
             case 'about':
                 return <About />;
-            case 'projects':
-                return <Projects currentCategory={currentCategory} />;
+            case 'portfolio':
+                return <Portfolio currentCategory={currentCategory} />;
             case 'contact':
                 return <ContactForm />;
             case 'resume':

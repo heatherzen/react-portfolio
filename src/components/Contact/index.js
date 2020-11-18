@@ -23,13 +23,13 @@ function ContactForm() {
                 setErrorMessage('');
             }
         }
-        setFormState({ ...formState, [e.target.name]: e.target.value });
+        // setFormState({ ...formState, [e.target.name]: e.target.value });
         // console.log('errorMessage', errorMessage);
 
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
-    }
+    };
 
     //   console.log(formState);
 
@@ -37,12 +37,14 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+        if (!errorMessage) {
+            console.log('Submit Form', formState);
+        }
     }
 
     return (
         <section>
-            <h1>Contact me</h1>
+            
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
