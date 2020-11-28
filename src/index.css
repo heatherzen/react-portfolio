@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
+  padding: 0px;
 }
 :root {
   --primary: #050404;
@@ -17,6 +17,11 @@ main {
   box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +30,19 @@ main {
 .mx-1 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+}
+
+.container-1 {
+  background-image: url("./assets/images/cover-image/cover-photo-alt.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-para {
+  color: var(--light);
+  text-align: center;
 }
 
 

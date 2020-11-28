@@ -7,7 +7,7 @@ function Portfolio({currentCategory}) {
     const { name, description } = currentCategory;
     
     return (
-        <section>
+        <section className="container-2">
             {/* <h1>{capitalizeFirstLetter(name)}</h1> */}
             <p>{description}</p>
             <PhotoList category={currentCategory.name} />
