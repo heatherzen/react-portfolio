@@ -1,4 +1,40 @@
-.img-thumbnail {
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+:root {
+  --primary: #050404;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+
+
+
+
+
+
+
+/* .img-thumbnail {
   width: auto;
   height: 300px;
   margin-bottom: 50px;
@@ -8,4 +44,4 @@
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
-}
+} */

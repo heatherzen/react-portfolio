@@ -45,7 +45,7 @@ function App() {
             <ContactForm></ContactForm>
           )}
       </main>
-      <Footer/>
+      <Footer></Footer>
     </div>
   );
 }
