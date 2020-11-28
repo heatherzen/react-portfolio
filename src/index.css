@@ -5,6 +5,7 @@ main {
 }
 :root {
   --primary: #050404;
+  --secondary: #4FCAE5;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -20,6 +21,12 @@ main {
 body, html {
   height: 100%;
   margin: 0;
+  background-image: url("./assets/images/cover-image/cover-photo-alt.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--dark);
 }
 
 .flex-row {
@@ -32,19 +39,37 @@ body, html {
   margin-left: var(--spacing-two);
 }
 
-.container-1 {
+/* .container-1 {
   background-image: url("./assets/images/cover-image/cover-photo-alt.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .about-para {
   color: var(--light);
   text-align: center;
 }
 
+/* .container-2 {
+  background-image: url("./assets/images/cover-image/cover-photo.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.resume {
+  margin: 10px;
+  color: var(--secondary);
+  padding: 20px;
+ 
+}
+
+.text-color {
+  color: var(--secondary);
+}
 
 
 

@@ -71,10 +71,10 @@ function PhotoList({ category }) {
                 key={image.name}
               />
               <div>
-                <a href={image.url}>Click here to view Website</a>
+                <a className="text-color" href={image.url}>Click here to view Website</a>
               </div>
               <div>
-                <a href={image.url2}>Click here for Github code</a>
+                <a className="text-color" href={image.url2}>Click here for Github code</a>
               </div>
             </div>
 

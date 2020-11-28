@@ -10,7 +10,7 @@ function Resume() {
   return (
       
     <div className="container-1">
-      <a href={File} download>Click to Download Resume</a>
+      <a className="resume" href={File} download>Click to Download Resume</a>
       <Document
         file={File}
       >
