@@ -62,22 +62,24 @@ function PhotoList({ category }) {
         {currentPhotos.map((image) => {
           // console.log(image, url);
           return (
-            <div className="image-links">
-              <h3 className="image-title">{image.name}</h3>
-              <img
-                src={require(`../../assets/images/${category}/${image.image}.png`)}
-                alt={image.name}
-                className="img-thumbnail mx-1"
-                key={image.name}
-              />
-              <div>
-                <a className="text-color" href={image.url}>Click here to view Website</a>
-              </div>
-              <div>
-                <a className="text-color" href={image.url2}>Click here for Github code</a>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    src={require(`../../assets/images/${category}/${image.image}.png`)}
+                    alt={image.name}
+                    key={image.name}
+                    style={{ width: '300px', height: '300px' }}
+                  />
+                </div>
+                <div className="flip-card-back">
+                  <h3>{image.name}</h3>
+                  <p>{image.description}</p>
+                  <a className="text-color" href={image.url}>Click here to view Website</a>
+                  <a className="text-color" href={image.url2}>Click here for Github code</a>
+                </div>
               </div>
             </div>
-
           )
         })}
       </div>
