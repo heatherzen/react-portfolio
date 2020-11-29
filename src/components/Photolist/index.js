@@ -58,7 +58,7 @@ function PhotoList({ category }) {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="flex-row2">
         {currentPhotos.map((image) => {
           // console.log(image, url);
           return (
@@ -75,8 +75,9 @@ function PhotoList({ category }) {
                 <div className="flip-card-back">
                   <h3>{image.name}</h3>
                   <p>{image.description}</p>
-                  <a className="text-color" href={image.url}>Click here to view Website</a>
-                  <a className="text-color" href={image.url2}>Click here for Github code</a>
+                  <a href={image.url}>Click here to view Website</a>
+                  <br></br>
+                  <a href={image.url2}>Click here for Github code</a>
                 </div>
               </div>
             </div>

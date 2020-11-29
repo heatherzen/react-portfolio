@@ -39,26 +39,10 @@ body, html {
   margin-left: var(--spacing-two);
 }
 
-/* .container-1 {
-  background-image: url("./assets/images/cover-image/cover-photo-alt.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 .about-para {
   color: var(--light);
   text-align: center;
 }
-
-/* .container-2 {
-  background-image: url("./assets/images/cover-image/cover-photo.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .resume {
   margin: 10px;
@@ -71,11 +55,53 @@ body, html {
   color: var(--secondary);
 }
 
+.flex-row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
 
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
 
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: var(--secondary);
+  color: white;
+  transform: rotateY(180deg);
+}
 
 /* .img-thumbnail {
   width: auto;
