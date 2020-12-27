@@ -43,15 +43,15 @@ function PhotoList({ category }) {
       image: 'password-generator',
       url: 'https://heatherzen.github.io/heatherpwgen/',
       url2: 'https://github.com/heatherzen/heatherpwgen'
-    },
-    {
-      name: 'Run Buddy',
-      category: 'portfolio',
-      description: 'a fitness website',
-      image: 'run-buddy',
-      url: 'https://heatherzen.github.io/run-buddy/',
-      url2: 'https://github.com/heatherzen/run-buddy'
-    },
+    }
+    // {
+    //   name: 'Run Buddy',
+    //   category: 'portfolio',
+    //   description: 'a fitness website',
+    //   image: 'run-buddy',
+    //   url: 'https://heatherzen.github.io/run-buddy/',
+    //   url2: 'https://github.com/heatherzen/run-buddy'
+    // },
   ]);
   const currentPhotos = photos.filter((photo) => photo.category === category);
   console.log(category);
@@ -60,7 +60,7 @@ function PhotoList({ category }) {
     <div>
       <div className="flex-row2">
         {currentPhotos.map((image) => {
-          // console.log(image, url);
+          // console.log(image.image);
           return (
             <div className="flip-card">
               <div className="flip-card-inner">
@@ -75,9 +75,9 @@ function PhotoList({ category }) {
                 <div className="flip-card-back">
                   <h3>{image.name}</h3>
                   <p>{image.description}</p>
-                  <a href={image.url}>Click here to view Website</a>
+                  <a style={{color:"#9EE7F4"}} href={image.url}>Click here to view Website</a>
                   <br></br>
-                  <a href={image.url2}>Click here for Github code</a>
+                  <a style={{color:"#9EE7F4"}} href={image.url2}>Click here for Github code</a>
                 </div>
               </div>
             </div>

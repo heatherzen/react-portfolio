@@ -4,6 +4,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
 
+
 function Nav(props) {
     
     const {
@@ -37,10 +38,10 @@ function Nav(props) {
                             </span>
                         </li>
                     ))}
-                </ul>
+                </ul> 
             </nav>
+            
         </header>
-
     );
 }
 

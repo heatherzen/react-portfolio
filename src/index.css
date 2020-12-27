@@ -5,7 +5,7 @@ main {
 }
 :root {
   --primary: #050404;
-  --secondary: #4FCAE5;
+  --secondary: #9EE7F4;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -32,11 +32,16 @@ body, html {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  
 }
 
 .mx-1 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+  cursor: pointer;
 }
 
 .about-para {
@@ -98,8 +103,8 @@ body, html {
 }
 
 .flip-card-back {
-  background-color: var(--secondary);
-  color: white;
+  background-color: var(--dark);
+  color: var(--secondary);
   transform: rotateY(180deg);
 }
 
@@ -114,3 +119,9 @@ body, html {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 } */
+
+.about-para {
+  width: 50%;
+  align-items: flex-start;
+  justify-content: left;
+}
