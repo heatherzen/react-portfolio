@@ -29,6 +29,10 @@ body, html {
   background-color: var(--dark);
 }
 
+.name {
+  font-size: 3rem;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
