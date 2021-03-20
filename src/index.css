@@ -129,3 +129,22 @@ body, html {
   align-items: flex-start;
   justify-content: left;
 }
+
+/* .container-2 {
+  width: 40%;
+  height: auto;
+}
+
+.contact-name { 
+  width: 20%;
+  height: auto;
+  color: var(--secondary);
+}
+
+.contact-email {
+  color: var(--secondary);
+}
+
+.contact-message {
+  color: var(--secondary);
+} */

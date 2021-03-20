@@ -7,6 +7,8 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
+        setFormState({...formState, name: e.target.value })
+        
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
@@ -30,31 +32,28 @@ function ContactForm() {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
     };
-
-    //   console.log(formState);
-
-
+    console.log(formState);
 
     function handleSubmit(e) {
         e.preventDefault();
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
+        // if (!errorMessage) {
+        //     console.log('Submit Form', formState);
+        // }
     }
 
     return (
         <section className="container-2">
-            
+          
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className="contact-name">
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
-                <div>
+                <div className="contact-email">
                     <label htmlFor="email">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
-                <div>
+                <div className="contact-message">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
 

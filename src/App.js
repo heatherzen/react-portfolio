@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import Page from './components/Page';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -41,9 +41,10 @@ function App() {
           <>
             <Page currentCategory={currentCategory}></Page>
           </>
-        ) : (
+          ) : (
             <ContactForm></ContactForm>
-          )}
+          )
+        }
       </main>
       <Footer></Footer>
     </div>
